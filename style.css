@@ -53,3 +53,22 @@ pre {
 p {
     padding-top: 160px;
 }
+
+@media (max-width: 600px) {
+    pre {
+        display: none;
+    }
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column .text a {
+        width: 80%;
+    }
+}
