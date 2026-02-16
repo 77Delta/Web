@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-.name {
+#name {
     color: red;
     transition: color 0.5s linear;
     font-family: "Monospace";
@@ -18,14 +18,14 @@ body {
     margin: 0;
 }
 
-.button {
+#button {
     display: flex;
     margin: auto;
     gap: 10px;
     padding-top: 100px;
 }
 
-.button a {
+#button a {
     border: 1px solid white;
     transition: background-color 0.3s;
     text-decoration: none;
@@ -34,10 +34,10 @@ body {
     display: inline-block;
 }
 
-.button a:hover {
+#button a:hover {
     background-color: rgb(50, 50, 50);
 }
 
-.discord {
+#discord {
     margin-top: auto;
 }
