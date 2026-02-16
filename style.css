@@ -1,74 +1,43 @@
 body {
     background-color: black;
     color: lightgray;
-    font-family: "Consolas";
+    font-family: "Monospace";
     text-align: center;
-    padding-top: 50px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-pre {
+.name {
     color: red;
     transition: color 0.5s linear;
-    font-family: "Consolas";
+    font-family: "Monospace";
+    font-size: 200px;
+    margin: 0;
 }
 
-.columns {
+.button {
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+    margin: auto;
+    gap: 10px;
+    padding-top: 100px;
 }
 
-.column {
-    flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.column .text-top {
-    font-weight: bold;
-    font-size: 32px;
-    white-space: pre-line;
-    padding-bottom: 20px;
-}
-
-.column .text {
-    text-align: center;
-    font-size: 20px;
-}
-
-.column .text a {
-    display: block;
-    margin: 10px auto;
+.button a {
     border: 1px solid white;
-    width: 200px;
     transition: background-color 0.3s;
     text-decoration: none;
     padding: 5px 10px;
+    width: 100px;
+    display: inline-block;
 }
 
-.column .text a:hover {
+.button a:hover {
     background-color: rgb(50, 50, 50);
 }
 
-p {
-    padding-top: 160px;
-}
-
-@media (max-width: 600px) {
-    pre {
-        display: none;
-    }
-
-    .columns {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    .column .text a {
-        width: 80%;
-    }
+.discord {
+    margin-top: auto;
 }

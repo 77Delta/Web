@@ -2,7 +2,7 @@ const colors = ["red", "orange", "yellow", "green", "blue", "violet"];
 let index = 0;
 
 function rainbow() {
-    document.querySelector("pre").style.color = colors[index];
+    document.querySelector("p.name").style.color = colors[index];
     index = (index + 1) % colors.length;
 }
 
