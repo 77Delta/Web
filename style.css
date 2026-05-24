@@ -41,3 +41,19 @@ body {
 #discord {
     margin-top: auto;
 }
+
+@media (max-width: 600px) {
+    #name {
+    font-size: 80px;
+    }
+
+    #button {
+    flex-direction: column;
+    padding-top: 50px;
+    }
+
+    #button a {
+    width: 150px;
+    padding: 12px 10px;
+    }
+}
